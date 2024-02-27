@@ -15,7 +15,13 @@
         android:theme="@style/Theme.DicodingAndroidPemula"
         tools:targetApi="31">
         <activity
-            android:name=".RecyclerViewModul.RecyclerviewMainActivity"
+            android:name=".Submission.AboutPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Submission.DetailServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Submission.MainSubmissionActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,10 +30,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".RecyclerViewModul.RecyclerviewMainActivity"
+            android:exported="true" />
+        <activity
             android:name=".ViewAndViewGroup.MainViewActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".IntentModul.MoveForResultActivity"
             android:exported="false" />
@@ -36,7 +43,7 @@
             android:exported="false" />
         <activity
             android:name=".IntentModul.MainIntentActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".kalkulator.KalkulatorActivity"
             android:exported="true" />

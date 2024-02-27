@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DicodingAndroidPemula</string>
+    <string name="app_name">Superior Autonetcare</string>
 
     <!--  Module INTENT   /-->
     <string name="move_activity">Pindah Activity</string>
@@ -17,6 +17,7 @@
     <string name="data_received">Data Diterima</string>
     <string name="object_received">Object Diterima</string>
     <string name="this_is_moveactivity">Ini MoveActivity</string>
+    <string name="dummyLongText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis fringilla ipsum. Nam pharetra dapibus justo et pretium. Integer a semper augue, quis ultrices ante. Vestibulum sed massa nec ex vulputate consectetur sed at quam. Cras vestibulum dui non cursus semper. Quisque eleifend sit amet nisl vulputate imperdiet. Suspendisse in molestie ipsum, ac consectetur orci. Sed ante dolor, finibus dapibus pharetra sed, consectetur quis lacus.</string>
 
     <!--  View dan View Group  -->
     <string name="content_text">Google officially announced its much-anticipated Pixel phones; the Pixel and Pixel XL, on October 4. We attended Google’s London UK event, mirroring the main one taking place in San Francisco, US, where the firm unwrapped the new Android 7.1 Nougat devices which will apparently usurp Google’s long-standing Nexus series.</string>
@@ -43,7 +44,7 @@
     <string name="dummy_value">$735</string>
     <string name="dummy_photos">6 photos</string>
 
-<!--  RECYCLERVIEW MODUL  -->
+    <!--  RECYCLERVIEW MODUL  -->
     <string name="heroes_name">Nama Pahlawan</string>
     <string name="description">Deskripsi</string>
     <string name="list">List</string>
@@ -82,4 +83,7 @@
         <item>https://upload.wikimedia.org/wikipedia/commons/a/a6/Supomo.jpg</item>
         <item>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/TanMalaka_DariPendjara_ed3.jpg/330px-TanMalaka_DariPendjara_ed3.jpg</item>
     </string-array>
+
+
+    <string name="descSuperior">Superion Autonetcare adalah sebuah perusahaan layanan perawatan dan perbaikan kendaraan yang bertujuan untuk memberikan pengalaman pelayanan terbaik kepada pelanggan. Kami mengutamakan kualitas, kehandalan, dan kepuasan pelanggan dalam setiap layanan yang kami berikan.\n\nDengan tim profesional yang berpengalaman dan menggunakan teknologi terkini, kami menyediakan berbagai layanan perawatan dan perbaikan kendaraan, mulai dari detailing dan perawatan interior hingga perbaikan mekanis dan elektrikal. Kami memahami betapa pentingnya kendaraan bagi kehidupan sehari-hari Anda, oleh karena itu kami berkomitmen untuk memberikan layanan yang berkualitas dan dapat diandalkan. Selain itu, kami juga menempatkan keberlanjutan lingkungan sebagai salah satu nilai inti kami. Kami menggunakan produk yang ramah lingkungan dan proses kerja yang bertanggung jawab untuk meminimalkan dampak negatif terhadap lingkungan.\n\nDengan motto "Perawatan Terbaik untuk Kendaraan Terbaik Anda", kami berusaha untuk menjadi mitra terpercaya bagi pelanggan kami dalam menjaga keamanan, kenyamanan, dan nilai investasi dari kendaraan mereka.</string>
 </resources>
