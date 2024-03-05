@@ -6,52 +6,98 @@
     android:gravity="center"
     android:padding="16dp">
 
-    <!-- Logo atau Gambar Header -->
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/superior_logos" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- Logo atau Gambar Header -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Founder Superior Autonetcare"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
 
-    <!-- Nama Usaha -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Superior Autonetcare"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:layout_marginTop="10dp"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/profile"
+                android:layout_marginTop="10dp"/>
 
-    <!-- Deskripsi Usaha -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/descSuperior"
-        android:textSize="14sp"
-        android:textColor="@color/black"
-        android:justificationMode="inter_word"
-        android:paddingTop="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Ryandhika Bintang Abiyyi"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="ryandhikabintang0@gmail.com"
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
 
-    <!-- Alamat -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Alamat: Jl. Sadewa No. 17 Semarang"
-        android:textSize="14sp"
-        android:textColor="@color/black"
-        android:layout_marginTop="10dp"/>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/superior_logos" />
 
-    <!-- Tombol Hubungi Kami -->
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Hubungi Kami"
-        android:textSize="14sp"
-        android:layout_marginTop="10dp"/>
+            <!-- Nama Usaha -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Superior Autonetcare"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+
+            <!-- Deskripsi Usaha -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descSuperior"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:paddingTop="8dp"/>
+
+            <!-- Alamat -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Alamat: Jl. Sadewa No. 17 Semarang"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+
+            <!-- Tombol Hubungi Kami -->
+            <Button
+                android:id="@+id/btContactMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Hubungi Kami"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
 
 </LinearLayout>

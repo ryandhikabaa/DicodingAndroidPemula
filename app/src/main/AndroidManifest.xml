@@ -15,6 +15,15 @@
         android:theme="@style/Theme.DicodingAndroidPemula"
         tools:targetApi="31">
         <activity
+            android:name=".Submission.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Submission.AboutPageActivity"
             android:exported="false" />
         <activity
@@ -23,11 +32,7 @@
         <activity
             android:name=".Submission.MainSubmissionActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".RecyclerViewModul.RecyclerviewMainActivity"
